@@ -1,0 +1,30 @@
+.sidebar--height {
+  height: 100%;
+}
+.menuContainer {
+  width: 70px;
+
+  background-color: rgb(28, 195, 106);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menu__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 !important;
+}
+
+.list_item {
+  width: 100%;
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb(228, 235, 241);
+}
+.list_item:hover {
+  color: white;
+  background-color: rgb(5, 118, 58);
+}

@@ -1,0 +1,101 @@
+.list-view-table-wrapper {
+  width: 100%;
+}
+.table {
+  background-color: white;
+  border-radius: 12px;
+}
+.listview__table__heading {
+  background-color: rgb(255, 245, 135);
+  color: gray;
+}
+
+th {
+  font-weight: 600 !important;
+}
+.poniter {
+  cursor: pointer;
+}
+.listview__table__data {
+  background-color: white;
+  border-radius: 8px;
+}
+td {
+  vertical-align: middle;
+}
+.customer-details {
+  padding: 0.5rem 0;
+}
+.customer-name {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.max-width {
+  max-width: fit-content;
+  min-width: 300px;
+}
+.table-borderless > :not(caption) > * > * {
+  border-bottom: 8px solid gray;
+}
+.list--view--pagination {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.pagination__left {
+  display: flex;
+  justify-content: flex-start;
+}
+.pagination__dropdown {
+  min-width: 70px;
+}
+.pagination_box{
+  height: 30px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.showing__page__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 0.9rem;
+}
+
+.active__page {
+  display: grid;
+  place-items: center;
+  color: white;
+  padding: 0 12px;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.pagination__right {
+  display: flex;
+  margin-left: auto;
+}
+.arrow__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 6px 8px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* i {
+        -webkit-text-stroke: 0.5px;
+      } */
+
+.font--weight {
+  font-weight: 700;
+}
